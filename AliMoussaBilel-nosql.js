@@ -113,7 +113,7 @@ db.examlegoSQL.updateOne(
     },
     { 
         $pull: { 
-            "evaluations": { "utilisateur": "Bob" } 
+            "evaluations": { "utilisateur": "Bob" } // ca doit etre une erreur de l'énoncé ca devrait etre Frank
         } 
     }
 );
